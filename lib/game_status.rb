@@ -53,9 +53,9 @@ def over?(board)
 end
 
 def winner
-    if win?(board).include?("X")
+    if won?(board).include?("X")
       return "X"
-    elsif win?(board).include?("Y")
+    elsif won?(board).include?("Y")
       return "Y"
     else
       return nil
