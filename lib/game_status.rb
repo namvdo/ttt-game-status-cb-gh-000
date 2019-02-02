@@ -56,9 +56,10 @@ def winner
   checkwinner = []
   checkwinner = won?(board)
   if won?(board) == false
-    return nil 
+    return nil
   elsif checkwinner[0] == "X"
     return "X"
-  else 
+  else
     return "O"
+  end
 end
