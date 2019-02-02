@@ -57,7 +57,7 @@ def winner
   checkwinner = won?(board)
   if won?(board) == false
     return nil
-  else 
+  else
     if board[checkwinner[0]] == "X"
       return "X"
     else
