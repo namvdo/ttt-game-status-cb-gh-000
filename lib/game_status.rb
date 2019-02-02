@@ -27,3 +27,10 @@ def won?(board)
     end
   }
 end
+def full?(board)
+  if board == " " || board == "" 
+    return false
+  else
+    return true
+  end
+end
