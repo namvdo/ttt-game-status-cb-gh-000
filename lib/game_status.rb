@@ -15,6 +15,6 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-    board.select {|win_1| win_1.(0,1,2)
+    board.select {|win_1| win_1.([0,1,2])
     return win_1}
 end
