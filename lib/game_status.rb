@@ -34,9 +34,9 @@ def full?(board)
       board_full == "X" || board_full == "O"
         return true
       end
-    end
     else
       false
     end
+  end
 
 end
