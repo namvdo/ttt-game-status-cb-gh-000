@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  if board.select do |combanations|
+  board.select do |combanations|
     combanations.([
       [0,1,2],
       [3,4,5],
@@ -26,8 +26,5 @@ def won?(board)
       [0,4,8],
       [2,4,6]
     ])
-    return true
-  else
-    return false
   end
 end
