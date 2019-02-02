@@ -60,5 +60,4 @@ def winner
     else
       return nil
     end
-  end
 end
