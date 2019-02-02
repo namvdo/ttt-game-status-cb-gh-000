@@ -25,7 +25,5 @@ def won?(board)
     }
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_combo
-    elsif postion_1 == "Y" && position_2 == "Y" && position_3 == "Y"
-      return win_combo
     end
 end
