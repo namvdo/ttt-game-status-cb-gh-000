@@ -53,8 +53,8 @@ def over?(board)
 end
 
 def winner
-    won?(board).include?("X")
+    x_wins = won?(board).include?("X")
       return "X"
-    won?(board).include?("Y")
+    o_wins = won?(board).include?("Y")
       return "Y"
 end
