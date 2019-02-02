@@ -52,7 +52,7 @@ def over?(board)
   end
 end
 
-def winner
+def winner(board)
   checkwinner = []
   checkwinner = won?(board)
   if won?(board) == false
