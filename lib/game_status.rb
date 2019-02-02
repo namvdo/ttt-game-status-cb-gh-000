@@ -53,8 +53,12 @@ def over?(board)
 end
 
 def winner
-    x_wins = won?(board).include?("X")
-      return "X"
-    o_wins = won?(board).include?("O")
-      return "O"
+  checkwinner = []
+  checkwinner = won?(board)
+  if won?(board) == false
+    return nil 
+  elsif checkwinner[0] == "X"
+    return "X"
+  else 
+    return "O"
 end
