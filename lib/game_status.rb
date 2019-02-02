@@ -29,8 +29,16 @@ def won?(board)
 else
   return false
 end
+
 def full?(board)
     board.all? do |board_full|
       board_full == "X" || board_full == "O"
     end
 end
+
+def draw?(board)
+  if full?(board) == true && won?(board) == false
+    return true
+  end
+end
+
