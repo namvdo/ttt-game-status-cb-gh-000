@@ -56,5 +56,5 @@ def winner
     x_wins = won?(board).include?("X")
       return "X"
     o_wins = won?(board).include?("Y")
-      return "Y"
+      return "O"
 end
